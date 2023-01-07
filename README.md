@@ -2,6 +2,7 @@
 
 Continuous integration (CI) workflows demo directly in GitHub repository with GitHub Actions.
 
+This workflow will install Python dependencies, run cover tests and lint with code on each pull request.
 
 ## Ressources
 
