@@ -1,5 +1,7 @@
 import unittest
-from src.mathematical_operations import *
+from src.mathematical_operations import my_sum
+from src.mathematical_operations import my_prod
+
 
 class TestMathematicalOperations(unittest.TestCase):
 
