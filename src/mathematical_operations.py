@@ -4,6 +4,7 @@ def my_sum(*args):
         s = s + i
     return s
 
+
 def my_prod(*args):
     p = 1
     for i in args:
