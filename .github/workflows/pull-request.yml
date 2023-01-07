@@ -31,6 +31,6 @@ jobs:
       continue-on-error: true
     - name: Test with unittest
       run: |
-        python3 unittests.py
+        python3 -m unittest test/test_mathematical_operations.py
         python3 -m coverage run -m unittest
         python3 -m coverage report
