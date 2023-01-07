@@ -1,8 +1,5 @@
-def my_sum(*args):
-    s = 0
-    for i in args:
-        s = s + i
-    return s
+def my_sum(a, b):
+    return a + b
 
 
 def my_prod(*args):
